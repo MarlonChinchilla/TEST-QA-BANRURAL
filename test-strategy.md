@@ -21,6 +21,6 @@
   - Mensaje rojo para el caso en que se pierden todos los intentos.
 
  **5. Contador de Intentos Incorrecto**
-- **Descripción del Error:** El contador de intentos se incrementaba incluso si la entrada no era válida, lo cual no seguía el requisito de no contar intentos para entradas inválidas.
+- **Descripción:** El contador de intentos se incrementaba incluso si la entrada no era válida, lo cual no seguía el requisito de no contar intentos para entradas inválidas.
 - **Solución:** El contador de intentos ahora solo se incrementa si la entrada es válida. La validación de entradas evita el incremento en caso de datos inválidos.
 
